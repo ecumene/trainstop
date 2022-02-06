@@ -12,18 +12,20 @@
 
 <main>
   <div class="container mx-auto flex flex-col">
-    <div class="flex items-center">
-      <div class="shrink-0">
-        <img
-          src="assets/logo.png"
-          alt="a pixel art train entering the station"
-          class="h-20 rounded-lg"
-        />
-      </div>
-      <div class="mx-4">
-        <h1 class="font-display font-black text-3xl my-4">Trainstop</h1>
-      </div>
-    </div>
+    <a href="/">
+      <header class="flex items-center">
+        <div class="shrink-0">
+          <img
+            src="assets/logo.png"
+            alt="a pixel art train entering the station"
+            class="h-20 rounded-lg"
+          />
+        </div>
+        <div class="mx-4">
+          <h1 class="font-display font-black text-3xl my-4">Trainstop</h1>
+        </div>
+      </header>
+    </a>
     <div class="flex my-4 text-sm">
       Compete with friends on Github for <MitchBux />
     </div>
