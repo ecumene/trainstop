@@ -19,7 +19,8 @@
     >
       💬 To purchase this, add this snippet to the end of the &nbsp;<a
         class="text-sky-600"
-        href="url">config.toml here</a
+        href="https://github.com/ecumene/trainstop/blob/main/config.toml"
+        >config.toml here</a
       >
     </div>
     <b>config.toml</b>
