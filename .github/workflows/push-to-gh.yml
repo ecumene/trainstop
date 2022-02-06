@@ -16,6 +16,8 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Keep me updated and Stay Hydrated
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           curl -fsSL https://deno.land/x/install/install.sh | sh
           export DENO_INSTALL="/home/runner/.deno"
