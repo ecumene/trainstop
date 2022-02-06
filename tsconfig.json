@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "include": ["src/**/*", "scripts/hydrate.ts", "scripts/data.ts"],
+  "exclude": ["node_modules/*", "__sapper__/*", "scripts/*", "public/*"]
+}

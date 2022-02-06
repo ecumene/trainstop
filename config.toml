@@ -1,0 +1,29 @@
+[[item]]
+id = "timmies10"
+name = "10$ Tim Hortons Gift Card"
+price = 4
+
+[[item]]
+id = "starbucks10"
+name = "10$ Starbucks Gift Card"
+price = 4
+
+[[item]]
+id = "sobeys25"
+name = "25$ Sobeys Gift Card"
+price = 8
+
+[[item]]
+id = "colemans25"
+name = "25$ Colemans Gift Card"
+price = 8
+
+[[stop]]
+slug = "getcoding"
+name = "Team GetCoding"
+usernames = ["TDrake38", "Valderhide", "LenLeonard", "adam-paul952", "ecumene"]
+
+[[stop]]
+slug = "compcibois"
+name = "Team CompSci@MUN"
+usernames = ["ecumene", "jackharrhy", "nint8835"]
