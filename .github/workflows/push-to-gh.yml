@@ -15,15 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Install Deno
+      - name: Keep me updated and Stay Hydrated
         run: |
           curl -fsSL https://deno.land/x/install/install.sh | sh
           export DENO_INSTALL="/home/runner/.deno"
           export PATH="$DENO_INSTALL/bin:$PATH"
           deno --version
-      
-      - name: Keep me updated and Stay Hydrated
-        run: ./scripts/run.sh
+          ./scripts/run.sh
 
       - name: Install and Build
         run: |
