@@ -8,7 +8,7 @@
 <div class="flex flex-col">
   <div class="flex gap-4 items-center">
     <h1 class="font-display font-bold text-3xl my-4">🛍 MitchShop</h1>
-    <a href="/">&lt;-- See all teams</a>
+    <a href={$url("/")}>&lt;-- See all teams</a>
   </div>
   <div
     class="flex my-4 text-sm rounded-lg border-solid border-2 border-green-900 bg-blue-100 px-2 py-4"

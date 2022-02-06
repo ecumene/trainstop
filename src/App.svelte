@@ -15,7 +15,7 @@
     <div class="flex items-center">
       <div class="shrink-0">
         <img
-          src="/assets/logo.png"
+          src="assets/logo.png"
           alt="a pixel art train entering the station"
           class="h-20 rounded-lg"
         />

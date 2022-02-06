@@ -11,7 +11,7 @@
   import { mapEmptyColor, mapColors } from "../../../consts";
 
   import SvelteHeatmap from "svelte-heatmap";
-  import { goto } from "@roxi/routify";
+  import { goto, url } from "@roxi/routify";
 
   const stop = config.stop.find((stop) => stop.slug === team);
 
@@ -44,7 +44,7 @@
 <main>
   <div class="flex gap-4 items-center">
     <h1 class="font-display font-black text-3xl">{stop.name}</h1>
-    <a href="/">&lt;-- See all teams</a>
+    <a href={$url("/")}>&lt;-- See all teams</a>
   </div>
   <div class="flex gap-3 mt-4 mb-2">
     <button
