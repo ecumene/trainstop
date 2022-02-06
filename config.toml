@@ -20,10 +20,15 @@ price = 8
 
 [[stop]]
 slug = "getcoding"
-name = "Team GetCoding"
+name = "Mitch's Students"
 usernames = ["TDrake38", "Valderhide", "LenLeonard", "adam-paul952", "ecumene"]
 
 [[stop]]
+slug = "getcoding-fun"
+name = "GetCoding Community"
+usernames = ["ecumene"]
+
+[[stop]]
 slug = "compcibois"
-name = "Team CompSci@MUN"
+name = "CompSci@MUN"
 usernames = ["ecumene", "jackharrhy", "nint8835"]
