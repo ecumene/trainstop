@@ -59,7 +59,9 @@ const getContributions = async (
   return data;
 };
 
-const allUsernames = config.stop.map(({ usernames }) => usernames).flat();
+const allUsernames = [
+  ...new Set(config.stop.map(({ usernames }) => usernames).flat()),
+];
 const allContributions: typeof GqlResponse = await Promise.all(
   allUsernames.map((username) =>
     getContributions(
