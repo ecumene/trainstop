@@ -54,6 +54,7 @@ const getContributions = async (
     headers: headers,
   });
   const data = await response.json();
+  console.log(data);
 
   return data;
 };
@@ -62,7 +63,7 @@ const allUsernames = config.stop.map(({ usernames }) => usernames).flat();
 const allContributions: typeof GqlResponse = await Promise.all(
   allUsernames.map((username) =>
     getContributions(
-      dotenv.GITHUB_TOKEN,
+      Deno.env.GITHUB_TOKEN ?? dotenv.GITHUB_TOKEN,
       username,
       startingWeek,
       new Date().toISOString()
