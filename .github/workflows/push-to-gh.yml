@@ -21,7 +21,7 @@ jobs:
           export DENO_INSTALL="/home/runner/.deno"
           export PATH="$DENO_INSTALL/bin:$PATH"
           deno --version
-          ./scripts/run.sh
+          cd ./scripts && ./run.sh
 
       - name: Install and Build
         run: |
