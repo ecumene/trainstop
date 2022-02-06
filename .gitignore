@@ -1,5 +1,8 @@
 /node_modules/
 /public/build/
 
+scripts/.env
+scripts/data.json
+
 .routify
 .DS_Store
