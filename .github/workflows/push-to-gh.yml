@@ -33,5 +33,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
+          git-config-email: action@github.com
+          git-config-name: GitHub Action
           branch: gh-pages
           folder: public
