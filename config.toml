@@ -21,7 +21,7 @@ price = 8
 [[stop]]
 slug = "getcoding"
 name = "Team GetCoding"
-usernames = ["SarabjitS", "TDrake38", "Valderhide", "LenLeonard", "adam-paul952", "skanes17", "ecumene"]
+usernames = ["skanes17", "SarabjitS", "TDrake38", "Valderhide", "LenLeonard", "adam-paul952", "ecumene"]
 
 [[stop]]
 slug = "compcibois"
